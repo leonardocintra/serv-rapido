@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Logo & Description */}
           <div>
             <div className="bg-white p-4 rounded-lg inline-block mb-4">
@@ -73,6 +73,31 @@ export default function Footer() {
                 <p>Sábado: 7h às 12h</p>
                 <p>Domingo: Fechado</p>
               </div>
+            </div>
+          </div>
+
+          {/* Column 4: Social Media */}
+          <div>
+            <h3 className="text-xl font-bold mb-4">Redes Sociais</h3>
+            <div className="space-y-3">
+              <a
+                href="#"
+                className="flex items-center gap-3 text-gray-400 hover:text-pink-500 transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={20} />
+                <span>Instagram</span>
+              </a>
+              <a
+                href="https://www.facebook.com/servrapido/photos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-400 hover:text-blue-500 transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} />
+                <span>Facebook</span>
+              </a>
             </div>
           </div>
         </div>

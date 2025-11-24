@@ -9,7 +9,7 @@ export default function Location() {
           Nossa Localização
         </h2>
         <p className="text-lg text-gray-600">
-          Visite nossa loja em Ibiraci/MG
+          Visite nossa loja em Ibiraci - MG
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export default function Location() {
                 <p className="text-gray-600">
                   Av. Cesar Elias Jorge, 843
                   <br />
-                  Centro - Ibiraci/MG
+                  Centro - Ibiraci - MG
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function Location() {
         {/* Google Maps */}
         <div className="bg-white p-4 rounded-xl shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.8!2d-47.4!3d-20.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI0JzAwLjAiUyA0N8KwMjQnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            src="https://www.google.com/maps/place/Serv+R%C3%A1pido+Materiais+Para+Constru%C3%A7%C3%A3o/@-20.4658122,-47.1253879,19.79z/data=!4m15!1m8!3m7!1s0x94b0c7e23ec73b8b:0x279b16a5f82a948e!2sIbiraci,+MG,+37990-000!3b1!8m2!3d-20.4656703!4d-47.125942!16s%2Fm%2F04lj7fn!3m5!1s0x94b0c808671d1837:0xbe4c42eed9fc915!8m2!3d-20.4658039!4d-47.125394!16s%2Fg%2F11bzwprcr0?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
             width="100%"
             height="400"
             style={{ border: 0 }}
