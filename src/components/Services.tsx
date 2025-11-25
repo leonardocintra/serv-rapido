@@ -1,13 +1,5 @@
 import Section from "./ui/Section";
 import Card from "./ui/Card";
-import {
-  Blocks,
-  Droplet,
-  Paintbrush,
-  DoorOpen,
-  Lightbulb,
-  Drill,
-} from "lucide-react";
 
 export default function Services() {
   const materiaisConstrucao = [
@@ -45,32 +37,32 @@ export default function Services() {
 
   const acabamentos = [
     {
-      icon: <Blocks size={40} />,
+      image: "/images/materiais/pisos-revestimentos.png",
       title: "Pisos e Revestimentos",
       description: "Ampla variedade de pisos e azulejos",
     },
     {
-      icon: <Paintbrush size={40} />,
+      image: "/images/materiais/tintas.png",
       title: "Tintas",
       description: "Tintas de qualidade para interior e exterior",
     },
     {
-      icon: <Droplet size={40} />,
+      image: "/images/materiais/loucas-metais.png",
       title: "Louças e Metais",
       description: "Acabamentos para banheiro e cozinha",
     },
     {
-      icon: <DoorOpen size={40} />,
+      image: "/images/materiais/portas-janelas.png",
       title: "Portas e Janelas",
       description: "Diversos modelos e tamanhos",
     },
     {
-      icon: <Lightbulb size={40} />,
+      image: "/images/materiais/material-eletrico.jpg",
       title: "Material Elétrico e Hidráulico",
       description: "Tudo para instalações elétricas e hidráulicas",
     },
     {
-      icon: <Drill size={40} />,
+      image: "/images/materiais/ferramentas.jpg",
       title: "Ferramentas",
       description: "Ferramentas profissionais para sua obra",
     },
@@ -113,7 +105,7 @@ export default function Services() {
           {acabamentos.map((item, index) => (
             <Card
               key={index}
-              icon={item.icon}
+              image={item.image}
               title={item.title}
               description={item.description}
             />
