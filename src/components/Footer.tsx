@@ -106,6 +106,9 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 py-6 text-center text-gray-400">
+          <p className="text-sm mb-2">
+            CNPJ: 12.345.678/0001-90
+          </p>
           <p>
             © {new Date().getFullYear()} Serv Rápido - Todos os direitos
             reservados
