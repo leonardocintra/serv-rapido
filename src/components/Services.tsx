@@ -1,11 +1,7 @@
 import Section from "./ui/Section";
 import Card from "./ui/Card";
 import {
-  Hammer,
   Blocks,
-  Wrench,
-  Home,
-  Trees,
   Droplet,
   Paintbrush,
   DoorOpen,
@@ -16,32 +12,32 @@ import {
 export default function Services() {
   const materiaisConstrucao = [
     {
-      icon: <Blocks size={40} />,
+      image: "/images/materiais/cimento-areia-brita.jpg",
       title: "Cimento, Areia e Brita",
       description: "Materiais básicos de qualidade para sua fundação",
     },
     {
-      icon: <Blocks size={40} />,
+      image: "/images/materiais/blocos-tijolos.png",
       title: "Tijolos e Blocos",
       description: "Diversos tipos e tamanhos para sua construção",
     },
     {
-      icon: <Wrench size={40} />,
+      image: "/images/materiais/vergalhoes.jpg",
       title: "Ferro e Vergalhões",
       description: "Estrutura forte e segura para sua obra",
     },
     {
-      icon: <Home size={40} />,
+      image: "/images/materiais/telhas.png",
       title: "Telhas",
       description: "Variedade de telhas para cobertura",
     },
     {
-      icon: <Trees size={40} />,
+      image: "/images/materiais/madeiras.png",
       title: "Madeiras",
       description: "Madeiras de qualidade para construção",
     },
     {
-      icon: <Hammer size={40} />,
+      image: "/images/materiais/cal-argamassa.jpg",
       title: "Cal e Argamassa",
       description: "Produtos para acabamento e revestimento",
     },
@@ -100,7 +96,7 @@ export default function Services() {
           {materiaisConstrucao.map((item, index) => (
             <Card
               key={index}
-              icon={item.icon}
+              image={item.image}
               title={item.title}
               description={item.description}
             />
